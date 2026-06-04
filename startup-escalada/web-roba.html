@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Startup - Black Friday</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #1a1a1a; color: white; text-align: center; margin: 0; padding: 0; }
+        header { background-color: #ff3e3e; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        h1 { margin: 0; letter-spacing: 2px; }
+        .promo { background: #ffd700; color: black; padding: 10px; font-weight: bold; animation: blink 1s infinite; }
+        @keyframes blink { 0% {opacity: 1;} 50% {opacity: 0.5;} 100% {opacity: 1;} }
+        
+        .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+        .product { background: #2d2d2d; border: 1px solid #444; margin: 15px; padding: 20px; width: 200px; border-radius: 10px; transition: transform 0.3s; }
+        .product:hover { transform: scale(1.05); border-color: #ff3e3e; }
+        .price { color: #ff3e3e; font-size: 1.5em; font-weight: bold; }
+        .old-price { text-decoration: line-through; color: #888; font-size: 0.9em; }
+        
+        footer { background: #111; padding: 20px; font-size: 0.8em; color: #666; margin-top: 40px; }
+        .status { color: #2ecc71; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FASHION STARTUP 2026</h1>
+        <p>Edició Especial Xarxes AX</p>
+    </header>
+
+    <div class="promo">¡OFERTES BLACK FRIDAY - 70% DESCOMPTE!</div>
+
+    <div class="container">
+        <div class="product">
+            <h3>Sudadera Tech</h3>
+            <p class="old-price">59,99€</p>
+            <p class="price">19,99€</p>
+            <button style="background:#ff3e3e; color:white; border:none; padding:10px; cursor:pointer; width:100%;">Comprar</button>
+        </div>
+        <div class="product">
+            <h3>Pantalons Docker</h3>
+            <p class="old-price">45,00€</p>
+            <p class="price">12,50€</p>
+            <button style="background:#ff3e3e; color:white; border:none; padding:10px; cursor:pointer; width:100%;">Comprar</button>
+        </div>
+        <div class="product">
+            <h3>Samarreta Python</h3>
+            <p class="old-price">25,00€</p>
+            <p class="price">7,99€</p>
+            <button style="background:#ff3e3e; color:white; border:none; padding:10px; cursor:pointer; width:100%;">Comprar</button>
+        </div>
+        <div class="product">
+            <h3>Gorra Mininet</h3>
+            <p class="old-price">20,00€</p>
+            <p class="price">5,00€</p>
+            <button style="background:#ff3e3e; color:white; border:none; padding:10px; cursor:pointer; width:100%;">Comprar</button>
+        </div>
+    </div>
+
+    <p class="status">● Servidor actiu a: 192.168.100.20 (Mode Clúster)</p>
+
+    <footer>
+        © 2026 Fashion Startup S.L. - Connexió segura amb la Base de Dades de Clients.
+    </footer>
+
+</body>
+</html>
